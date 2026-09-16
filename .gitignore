@@ -1,0 +1,54 @@
+# Python bytecode and caches
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+
+# Packaging and virtual environments
+*.egg-info/
+build/
+dist/
+.venv/
+venv/
+env/
+
+# Jupyter temporary files
+.ipynb_checkpoints/
+
+# IDE and operating-system files
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db
+
+# Runtime logs and generated test outputs
+*.log
+test_output/
+output/*
+!output/.gitkeep
+!output/demo/
+!output/demo/.gitkeep
+
+# Local configuration and environment secrets
+.env
+.env.*
+llmctg.local.json
+
+# Local model weights and training checkpoints
+models/
+checkpoints/
+checkpoint-*/
+*.bin
+*.pt
+*.pth
+*.ckpt
+*.safetensors
+
+# Internal document rendering and QA intermediates
+qa/
+deliverables/*.pdf
+~$*.docx
