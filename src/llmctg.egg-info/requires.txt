@@ -1,0 +1,9 @@
+
+[dev]
+pytest>=8.0
+
+[llm]
+torch>=2.1
+transformers>=4.40
+peft>=0.10
+datasets>=2.18

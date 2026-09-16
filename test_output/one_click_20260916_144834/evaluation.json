@@ -1,0 +1,33 @@
+{
+  "target_level": "junior",
+  "predicted_level": "senior",
+  "quality_grade": "待改进",
+  "passed": false,
+  "statistics": {
+    "characters": 56,
+    "chinese_characters": 51,
+    "sentences": 2,
+    "paragraphs": 1,
+    "average_sentence_length": 25.5,
+    "max_sentence_length": 27,
+    "unique_character_ratio": 0.8627,
+    "punctuation_ratio": 0.0893
+  },
+  "metrics": {
+    "repetition_rate": 0.0,
+    "english_ratio": 0.0,
+    "uncommon_character_ratio": 0.5294,
+    "structure_score": 55.0,
+    "length_score": 20.4,
+    "level_score": 62.0,
+    "overall_score": 53.36
+  },
+  "warnings": [
+    "文本长度与目标等级不匹配",
+    "预测难度与目标阅读等级存在差异"
+  ],
+  "suggestions": [
+    "围绕主题补充事实、例子或总结，避免无关扩写",
+    "通过词语解释、句式调整和信息密度控制来降低阅读难度"
+  ]
+}

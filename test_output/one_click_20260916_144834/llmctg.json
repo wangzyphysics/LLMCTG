@@ -1,0 +1,27 @@
+{
+  "generation": {
+    "backend": "template",
+    "model_path": "",
+    "device": "auto",
+    "lora_path": "",
+    "temperature": 0.9,
+    "top_p": 0.9,
+    "top_k": 50,
+    "repetition_penalty": 1.1,
+    "max_new_tokens_primary": 380,
+    "max_new_tokens_junior": 800,
+    "max_new_tokens_senior": 1200
+  },
+  "evaluation": {
+    "pass_score": 60.0,
+    "excellent_score": 85.0,
+    "good_score": 70.0,
+    "primary_sentence_target": 16.0,
+    "junior_sentence_target": 24.0,
+    "senior_sentence_target": 34.0,
+    "repetition_warning": 0.18,
+    "english_warning": 0.15
+  },
+  "log_level": "INFO",
+  "output_encoding": "utf-8"
+}

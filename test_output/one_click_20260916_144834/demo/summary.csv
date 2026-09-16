@@ -1,0 +1,4 @@
+﻿request_id,topic,level,title,backend,quality_grade,passed,overall_score,characters,predicted_level
+d1b4c7a0ebde7a5e,四季的变化,primary,认识四季的变化,template,待改进,False,59.12,69,senior
+ecb37cd15ed1f5fc,城市里的河流,junior,探索城市里的河流,template,合格,True,66.71,102,senior
+a683c1361a26edcd,人工智能与学习,senior,理解人工智能与学习的多重视角,template,良好,True,78.36,171,senior

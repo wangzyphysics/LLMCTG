@@ -1,0 +1,52 @@
+[
+  {
+    "test": "版本与命令入口",
+    "status": "PASS",
+    "detail": "输出 llmctg 版本号，退出码为 0。"
+  },
+  {
+    "test": "默认配置生成",
+    "status": "PASS",
+    "detail": "生成可解析且包含 generation、evaluation 的 JSON 配置。"
+  },
+  {
+    "test": "训练数据转换",
+    "status": "PASS",
+    "detail": "把标注文本转换成至少 12 条 JSONL 训练样本。"
+  },
+  {
+    "test": "模板文本生成",
+    "status": "PASS",
+    "detail": "生成 1 条正文且 backend 为 template。"
+  },
+  {
+    "test": "文本质量评估",
+    "status": "PASS",
+    "detail": "生成包含统计指标和质量指标的 JSON；是否及格不影响功能判定。"
+  },
+  {
+    "test": "批量任务处理",
+    "status": "PASS",
+    "detail": "处理 3 条任务并生成 JSONL、JSON、CSV 和 HTML 报告。"
+  },
+  {
+    "test": "完整离线演示",
+    "status": "PASS",
+    "detail": "生成 3 篇示例文章及汇总报告。"
+  },
+  {
+    "test": "本地基础模型生成",
+    "status": "PASS",
+    "detail": "Qwen3 基础模型生成一条非空中文文本。"
+  },
+  {
+    "test": "LoRA 冒烟微调",
+    "status": "PASS",
+    "detail": "完成 1 轮训练并保存 adapter_config.json 和适配器权重。"
+  },
+  {
+    "test": "LoRA 适配器生成",
+    "status": "PASS",
+    "detail": "加载刚训练的适配器并生成一条非空中文文本。"
+  }
+]

@@ -1,0 +1,35 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "llmctg"
+version = "1.0.0"
+description = "LLM Chinese Text Generator"
+readme = "README.md"
+requires-python = ">=3.10"
+license = {text = "Proprietary"}
+dependencies = []
+
+[project.optional-dependencies]
+llm = [
+    "torch==2.6.0",
+    "transformers>=4.51,<5",
+    "peft>=0.10,<1",
+    "datasets>=2.18,<5",
+    "accelerate>=0.26,<2",
+]
+dev = ["pytest>=8.0"]
+
+[project.scripts]
+llmctg = "llmctg.cli:main"
+
+[tool.setuptools]
+package-dir = {"" = "src"}
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.pytest.ini_options]
+pythonpath = ["src"]
+testpaths = ["tests"]

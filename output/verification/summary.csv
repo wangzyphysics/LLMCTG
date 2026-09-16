@@ -1,0 +1,4 @@
+﻿request_id,topic,level,title,backend,quality_grade,passed,overall_score,characters,predicted_level
+2be318211a6734dc,森林里的水循环,primary,认识森林里的水循环,template,合格,True,65.63,88,senior
+706c4a94892f238b,传统建筑中的智慧,junior,探索传统建筑中的智慧,template,合格,True,67.15,139,senior
+9f8860437728f077,数据如何影响公共决策,senior,理解数据如何影响公共决策的多重视角,template,良好,True,78.69,207,senior
